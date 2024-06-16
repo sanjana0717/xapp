@@ -1,0 +1,300 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: white;
+        color: rgb(245, 160, 68);
+        font-family: 'Playfair Display', serif;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        background-color: white;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 36px;
+        font-size: medium;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0px 30px;
+        justify-content: left;
+        font-size: 1.2rem;
+    }
+
+    nav div.left {
+        font-size: 3.5rem;
+        color: black;
+        font-family: auto;
+        margin-right: 193px;
+    }
+
+    nav div.button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        border: 3px solid orangered;
+        border-radius: 15px;
+        padding: 12px 31px;
+    }
+
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 7px -6px;
+        background-color: rgba(252, 131, 24, 0.929);
+
+    }
+
+    .firstsection div {
+        width: 50%;
+    }
+    .firstsection div.below{
+        margin-top: 36px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        width: 109%;
+        font-size: 25px;
+
+    }
+    .firstsection div.button2{
+        
+        font-size: 19px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin-top: 52px;
+        text-align: center
+    }
+
+    .rightsection img {
+        width: 88%;
+        margin: -17px 6px;
+    }
+
+    .firstsection div.left {
+
+        width: 50%;
+        margin-top: -55px;
+        font-size: 3.5rem;
+        padding: 159px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+         'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        
+    }
+
+    span {
+        color: #564381;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    nav ul li a:hover {
+        color: #580e5b;
+        font-size: 110%;
+
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 100px 0px;
+
+
+    }
+
+   /** .secondsection img {
+        height: auto;
+        width: 382px;
+
+    }**/
+
+    .aboutme {
+        width: 550px;
+
+    }
+
+    hr {
+        margin: 2px 79px;
+    }
+    .boxes p{
+       
+        color: black;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .secondsection div.boxes {
+        margin-left: 69px;
+        width: 16%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        font-family: auto;
+        font-size: 30px;
+        padding: 31px 20px;
+        float: left;
+        margin-bottom: 60px;
+    }
+  
+   div.imgone img{
+  
+    width: 24%;
+    margin: 1px 62px;
+    margin-top: -14px;
+}
+div.imgtwo img{
+   
+    width: 32%;
+    margin: 1px 62px;
+    margin-top: -19px;
+
+}
+div.imgthree img{
+   
+    width: 33%;
+    margin: 1px 62px;
+    margin-top: -19px;
+}
+div.imgfour img{
+   
+    width: 35%;
+    margin: 1px 62px;
+    margin-top: -19px;
+}
+div.imgo img{
+    width: 35%;
+    margin: 1px 62px;
+    margin-top: -19px;
+}
+    h6{
+        color: black;
+        font-size: 24px;
+        margin-top: 22px;
+    }
+    .about h2 {
+        font-family: auto;
+        font-size: 43px;
+        margin-bottom: 18px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: -80px;
+        margin-bottom: 104px;
+    }
+    
+    .thirdsection {
+        width: 100%;
+        padding: 100px 0px;
+    }
+     .heading h2{
+        
+            font-family: auto;
+            font-size: 43px;
+            margin-bottom: 18px;
+            color: black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+            margin-top: -74px;
+            margin-bottom: 104px;
+            width: 100%;
+    }
+    .thirdsection div.rectangle{
+        margin-left: 69px;
+        width: 16%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        font-family: auto;
+        font-size: 30px;
+        padding: 31px 20px;
+        float: left;
+    }
+    .rectangle p{
+       
+        color: black;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .aboutme h5 {
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .aboutme p {
+        letter-spacing: 1px;
+        line-height: 33px;
+        font-size: 25px;
+        margin-bottom: 45px;
+    }
+
+    .contact {
+        width: 100%;
+        height: 290px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact p {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .contact .button {
+        background-color: rgb(185 11 185);
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        height: 400%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondsection div.boxes{
+        
+        border: 1px solid #dad3d3;
+        border-radius: 16px;
+    }
